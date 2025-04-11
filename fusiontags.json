@@ -124,7 +124,7 @@
     {
       "id": "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
       "name": "HDR10+",
-      "pattern": "(?i)HDR[ .\-_]?10[ .\-_]?(plus|\+)",
+      "pattern": "",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -196,7 +196,7 @@
     {
       "id": "f8a9b0c1-d2e3-4f5a-6b7c-8d9e0f1a2b3c",
       "name": "DTS-X",
-      "pattern": "(?i)(?=.*\\b(dts[-_.: ]?x7?)\\b(?![-_. ]?(26[456])))(?!.*\\bDTS[ .]?[1-9]\\b)(?!.*\\bDD[^a-z+]\\b)(?!.*\\b(ac-?3)\\b)(?!.*\\bDD[P+]\\b)(?!.*\\b(e[-_. ]?ac-?3)\\b)(?!.*\\bTrue[ .-]?HD\\b)(?!.*\\bATMOS(\\b|\\d)\\b)(?!.*\\bFLAC\\b)(?!.*\\bAAC\\b)(?!.*\\b(l?)PCM\\b)",
+      "pattern": "",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -208,7 +208,7 @@
     {
       "id": "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
       "name": "DTS-HD MA",
-      "pattern": "(?i)\bdts[.\-_ ]?hd[.\-_ ]?ma\b",
+      "pattern": "",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",

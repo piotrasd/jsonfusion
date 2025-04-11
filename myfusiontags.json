@@ -41,7 +41,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9a",
       "name": "Remux",
-      "pattern": "(?i)\bremux\b",
+      "pattern": "(?i)\\\\bremux\\\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -53,7 +53,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "Bluray",
-      "pattern": "(?i)^(?=.*?blu[- ]?ray)(?!.*?remux).*?\bblu[- ]?ray\b",
+      "pattern": "(?i)^(?=.*?blu[- ]?ray)(?!.*?remux).*?\\\\bblu[- ]?ray\\\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",

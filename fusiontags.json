@@ -160,7 +160,7 @@
     },
     {
       "id": "9f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
-      "name": "2160p",
+      "name": "4K",
       "pattern": "(?i)\\b(bd|hd|m)?2160[pi]?\\b|\\b4k\\b|\\bu(ltra)?[ ._-]?hd\\b|\\b3840\\s?x\\s?\\d{4}\\b",
       "type": "filter",
       "isEnabled": true,
@@ -196,7 +196,7 @@
     },
     {
       "id": "f6a7b8c9-d0e1-2f3a-4b5c-6d7e8f9a0b1c",
-      "name": "DV",
+      "name": "Dolby Vision",
       "pattern": "(?i)\\b(dv|dovi|dolby[ .]?v(ision)?)\\b(?!.*\\b(HDR(10)?(P(lus)?)?|HLG|SDR)\\b)",
       "type": "filter",
       "isEnabled": true,

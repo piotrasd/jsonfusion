@@ -65,7 +65,7 @@
     {
       "id": "d4e2f6a7-b3c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "WebDL",
-      "pattern": "(?i)\bweb(?:[\s.\-_]*dl)\b",
+      "pattern": "(?i)^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CasStudio|CMRG|CRFW|CRUD|CtrlHD|FLUX|GNOME|HONE|KiNGS|Kitsune|monkee|NOSiViD|NTb|NTG|QOQ|RTN|SiC|TEPES|T6D|TOMMY|ViSUM)\\b).*",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",

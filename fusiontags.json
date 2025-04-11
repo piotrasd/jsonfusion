@@ -41,7 +41,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9a",
       "name": "Remux",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -53,7 +53,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "Bluray",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagColor": "#8A9296",
@@ -64,7 +64,7 @@
     {
       "id": "d4e2f6a7-b3c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "WebDL",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|KRaLiMaRKo|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -76,7 +76,7 @@
     {
       "id": "9f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
       "name": "4K",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -124,7 +124,7 @@
     {
       "id": "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
       "name": "HDR10+",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -136,7 +136,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
       "name": "HDR10",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -208,7 +208,7 @@
     {
       "id": "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
       "name": "DTS-HD MA",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|KRaLiMaRKo|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",

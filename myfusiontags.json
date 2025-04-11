@@ -232,7 +232,7 @@
     },
     {
       "id": "b8c5d6e7-f8a9-0b1c-2d3e-4f1a6b7c8d9e",
-      "name": "Dolby Digital +",
+      "name": "DD+",
       "pattern": "(?i:(d(?:olby)?[ .\\-_]?d(?:igital)?[ .\\-_]?(?:p(?:lus)?|\\+)(?:[ .\\-_]?(?:5[ .\\-_]?1|7[ .\\-_]?1))?)|e[ .\\-_]?ac[ .\\-_]?3)",
       "type": "filter",
       "isEnabled": true,
@@ -256,7 +256,7 @@
     },
     {
       "id": "b8c5d6e9-f8a9-0b1c-2d3e-4f1a6b1c8d9e",
-      "name": "Dolby Digital",
+      "name": "DD",
       "pattern": "(?i)(?=.*\\bDD[^a-z+]|(?<!e-)\\b(ac-?3)\\b)(?!.*\\bDD[P+]|(e[-_. ]?ac-?3)\\b)(?!.*\\b(True[ .-]?HD|ATMOS)(\\b|\\d))(?!.*\\bDTS(\\b|\\d))(?!.*\\bFLAC(\\b|\\d))(?!.*\\bAAC(\\b|\\d))(?!.*\\b(l?)PCM(\\b|\\d))",
       "type": "filter",
       "isEnabled": true,

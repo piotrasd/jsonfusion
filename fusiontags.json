@@ -41,47 +41,47 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9a",
       "name": "Remux",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\bremux\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
     },
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "Bluray",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\bblu[.\-_ ]?ray\b",
       "type": "filter",
       "isEnabled": true,
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
     },
     {
       "id": "d4e2f6a7-b3c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "WebDL",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\bweb[-]?dl\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "7c211433-9f2b-4e2f-9b8c-2f9a8e8c8b1e"
     },
     {
       "id": "9f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
       "name": "4K",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\b(?:4k|2160p)\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "550e8400-e29b-41d4-a716-446655440000"
     },
@@ -93,7 +93,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "550e8400-e29b-41d4-a716-446655440000"
     },
@@ -105,7 +105,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "550e8400-e29b-41d4-a716-446655440000"
     },
@@ -117,31 +117,31 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
     },
     {
       "id": "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
       "name": "HDR10+",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)HDR[ .\-_]?10[ .\-_]?(plus|\+)",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
     },
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-4b5c6d7e8f9a",
       "name": "HDR10",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|PTer|TRiToN)\\b",
+      "pattern": "(?i)\\bHDR[ .\\-_]?10(?![ .\\-_]?(?:\\+|plus))\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
     },
@@ -153,7 +153,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
     },
@@ -165,7 +165,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
     },
@@ -177,7 +177,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
@@ -189,7 +189,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
@@ -201,19 +201,19 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
     {
       "id": "b4c5d6e7-f8a9-0b1c-2d3e-4f5a6b7c8d9e",
       "name": "DTS-HD MA",
-      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|KRaLiMaRKo|PTer|TRiToN)\\b",
+      "pattern": "(?i)\bdts[.\-_ ]?hd[.\-_ ]?ma\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
@@ -225,7 +225,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
@@ -237,7 +237,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
@@ -249,7 +249,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
@@ -261,7 +261,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "8e4b6f8e-2c1e-4f6b-9e8d-3f7a9d1c2e3f"
     },
@@ -273,7 +273,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c"
     },
@@ -285,7 +285,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c"
     },
@@ -297,7 +297,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "9f8e7d6c-3b2a-4f1e-9c8d-5a6b7e4f3d2c"
     },
@@ -309,7 +309,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -321,7 +321,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -333,7 +333,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -345,7 +345,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -357,7 +357,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -369,7 +369,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -381,7 +381,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -393,7 +393,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -405,7 +405,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -417,7 +417,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -429,7 +429,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -441,7 +441,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -453,7 +453,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -465,7 +465,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -477,7 +477,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -489,7 +489,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -501,7 +501,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -513,7 +513,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -525,7 +525,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -537,7 +537,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -549,7 +549,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -561,7 +561,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -573,7 +573,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -585,7 +585,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -597,7 +597,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -609,7 +609,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     },
@@ -621,7 +621,7 @@
       "isEnabled": true,
       "tagStyle": "filled",
       "tagColor": "#8A9296",
-      "textColor": "#000000",
+      "textColor": "#0E0E0E",
       "imageURL": "",
       "groupId": "86f4b9d4-c56a-4eb5-94fd-4e4bb227f2f9"
     }

@@ -41,7 +41,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9a",
       "name": "Remux",
-      "pattern": "(?i)^(?!.*\bremux\b).*?\b(?:bluray|bdrip|bd-r|bd25|bd50|bd9|bd5)\b",
+      "pattern": "(?i)\bremux\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -65,7 +65,7 @@
     {
       "id": "d4e2f6a7-b3c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "WebDL",
-      "pattern": "(?i)^(?=.*\\bWEB[-_.]?(?:DL|RIP)\\b)(?=.*\\b(?:ABBIE|AJP69|APEX|PAXA|PEXA|XEPA|BLUTONiUM|CasStudio|CMRG|CRFW|CRUD|CtrlHD|FLUX|GNOME|HONE|KiNGS|Kitsune|monkee|NOSiViD|NTb|NTG|QOQ|RTN|SiC|TEPES|T6D|TOMMY|ViSUM)\\b).*",
+      "pattern": "(?i)\bweb[-_]?dl\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",

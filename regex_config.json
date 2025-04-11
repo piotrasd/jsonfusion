@@ -41,7 +41,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c6d7e8f9a",
       "name": "Remux",
-      "pattern": "(?i)\bremux\b|(?i)\bre[\s.\-_]*mux\b",
+      "pattern": "(?i)\b(remux|r[e3]mux)\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
@@ -64,7 +64,7 @@
     {
       "id": "d4e2f6a7-b3c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "WebDL",
-      "pattern": "(?i)\bweb[\s.\-_]*dl\b",
+      "pattern": "(?i)\bweb[\s-]?dl\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",

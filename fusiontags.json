@@ -53,7 +53,7 @@
     {
       "id": "d4e5f6a7-b8c9-0d1e-2f3a-3b5c4d7e8f9a",
       "name": "Bluray",
-      "pattern": "(?i)\bblu[.\-_ ]?ray\b",
+      "pattern": "(?i)\bblu[\s.\-_]*ray\b(?![^\s]*?(?:remux|web[-_.]?(?:dl|rip))\b)",
       "type": "filter",
       "isEnabled": true,
       "tagColor": "#8A9296",

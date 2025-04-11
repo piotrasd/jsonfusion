@@ -619,7 +619,7 @@
       "name": "🇹🇭 Thai",
       "pattern": "(?i)\\b(?:tha(?:i)?|th|ไทย)\\b",
       "type": "filter",
-      "isEnabled": true,
+      "isEnabled": false,
       "tagStyle": "filled",
       "tagColor": "#919191",
       "textColor": "#0e0e0e",

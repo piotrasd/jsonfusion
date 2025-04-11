@@ -124,7 +124,7 @@
     {
       "id": "e5f6a7b8-c9d0-1e2f-3a4b-5c6d7e8f9a0b",
       "name": "HDR10+",
-      "pattern": "(?i)\bhdr[\s.\-_]*10[\s.\-_]*\+\d*\b",
+      "pattern": "(?i)\\bRemux\\b.*\\b(Flights|NCmt|playBD|SiCFoI|SURFINBIRD|TEPES|decibeL|EPSiLON|HiFi|KRaLiMaRKo|PTer|TRiToN)\\b",
       "type": "filter",
       "isEnabled": true,
       "tagStyle": "filled",
